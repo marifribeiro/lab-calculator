@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href = "styles.css">
+    <title>Calculadora</title>
+</head>
+<body>
+  <form name='calc' id='calc'>
+    <h1> Calculadora </h1>
+    <input type='text' id='name' placeholder='Nome'>
+    <br>
+    <input type='number' id='n1' placeholder='Número'>
+    <br>
+    <button type="button" id='1' onclick='operation(this)'>+</button>
+    <button type="button" id='2' onclick='operation(this)'>-</button>
+    <button type="button" id='3' onclick='operation(this)'>x</button>
+    <button type="button" id='4' onclick='operation(this)'>&#247;</button>
+    <br>
+    <input type='number' id='n2' placeholder='Número'>
+    
+    <h4 id='textName'></h4>
+    <h4 id="result"></h4>
+
+    <script src= "script.js"></script>
+</body>
+</html>
